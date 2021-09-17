@@ -17,7 +17,7 @@ The new school summary dataframe is shown above. The school summary has rows acc
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. However, the distance between Thomas and the school ranked 3rd went from .35 to .03. So, it came very close to coming in 3rd place.
+  Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. However, the distance between Thomas and the school ranked 3rd went from .35 to .03. So, it came very close to coming in 3rd place.
 
 - How does replacing the ninth-grade scores affect the following:
   - **Math and reading scores by grade:** 
@@ -47,6 +47,7 @@ Thomas High School was still ranked 2nd place after the forged math and reading 
   
 ## Summary: 
 After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
+
 1. 
 2. 
 3. 
