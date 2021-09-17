@@ -52,3 +52,9 @@ After the reading and math scores for the ninth grade at Thomas High School were
 2. 
 3. 
 4. 
+
+Summary: 
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+Summary: 
+There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
