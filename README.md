@@ -5,10 +5,14 @@ This analysis will assist a school board in making decisions about the budget of
 
 ## Results: 
 - How is the district summary affected?
+Once the Thomas High School 9th graders were factored out 
+![](Resources/old_district_summary.png)
 
 - How is the school summary affected?
 
+
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
 
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
