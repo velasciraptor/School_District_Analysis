@@ -20,10 +20,14 @@ The new school summary dataframe is shown above. The school summary has rows acc
 Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. However, the distance between Thomas and the school ranked 3rd went from .35 to .03. So, it came very close to coming in 3rd place.
 
 - How does replacing the ninth-grade scores affect the following:
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+  - **Math and reading scores by grade:** 
+  
+  Below are the 2 new dataframes for the math and reading scores by grade. For Thomas High School the 9th grade results were changed to NaN and all of the other scores were unaffected.
+  
+  ![](Resources/new_math_scores.png) ![](Resources/new_reading_scores.png)
+  - **Scores by school spending:** 
+  - **Scores by school size:** 
+  - **Scores by school type:** 
 
 ## Summary: 
 After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
