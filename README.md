@@ -22,28 +22,28 @@ This analysis will assist a school board in making decisions about the budget of
 - How does replacing the ninth-grade scores affect the following:
   - **Math and reading scores by grade:** 
   
-  Below are the 2 new dataframes for the math and reading scores by grade. For Thomas High School the 9th grade results were changed to NaN and all of the other scores were unaffected.
+    Below are the 2 new dataframes for the math and reading scores by grade. For Thomas High School the 9th grade results were changed to NaN and all of the other scores were unaffected.
   
-  ![](Resources/new_math_scores.png) ![](Resources/new_reading_scores.png)
+    ![](Resources/new_math_scores.png) ![](Resources/new_reading_scores.png)
   
   - **Scores by school spending:** 
   
-  ![](Resources/scores_by_spending.png)
+    ![](Resources/scores_by_spending.png)
   
-  Thomas High School falls into the $630 - $644 range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same spending range.
+    Thomas High School falls into the $630 - $644 range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same spending range.
   
   
   - **Scores by school size:** 
   
-  ![](Resources/scores_by_size.png)
+    ![](Resources/scores_by_size.png)
   
-  Thomas High School falls into the medium range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same size range.
+    Thomas High School falls into the medium range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same size range.
   
   - **Scores by school type:** 
   
-  ![](Resources/scores_by_school_type.png)
+    ![](Resources/scores_by_school_type.png)
   
-  Thomas High Schools falls into the charter school type. Like the 2 tables before this one, this new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other charter schools.
+    Thomas High Schools falls into the charter school type. Like the 2 tables before this one, this new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other charter schools.
   
 ## Summary: 
 After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
