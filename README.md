@@ -25,10 +25,24 @@ Thomas High School was still ranked 2nd place after the forged math and reading 
   Below are the 2 new dataframes for the math and reading scores by grade. For Thomas High School the 9th grade results were changed to NaN and all of the other scores were unaffected.
   
   ![](Resources/new_math_scores.png) ![](Resources/new_reading_scores.png)
+  
   - **Scores by school spending:** 
+  
+  ![](Resources/scores_by_spending.png)
+  
+  Thomas High School falls into the $630 - $644 range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same spending range.
+  
+  
   - **Scores by school size:** 
+  
+  ![](Resources/scores_by_size.png)
+  
+  Thomas High School falls into the medium range of the dataframe above. This new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other schools in the same size range.
+  
   - **Scores by school type:** 
-
+  
+  
+  
 ## Summary: 
 After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
 1. 
