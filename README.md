@@ -41,7 +41,9 @@ Thomas High School was still ranked 2nd place after the forged math and reading 
   
   - **Scores by school type:** 
   
+  ![](Resources/scores_by_school_type.png)
   
+  Thomas High Schools falls into the charter school type. Like the 2 tables before this one, this new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other charter schools.
   
 ## Summary: 
 After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
