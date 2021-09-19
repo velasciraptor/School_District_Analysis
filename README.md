@@ -6,18 +6,17 @@ This analysis will assist a school board in making decisions about the budget of
 ## Results: 
 - How is the district summary affected?
 
-  When the Thomas High School 9th graders were factored out, the % Passing Math, % Passing Reading, and % Overall Passing columns for the district summary dataFrame all changed. The percentage of students passing math went from 75% to 74.8%. The percentage of students passing reading went from 86% to 85.7%. Lastly, the percentage of overall students passing went from 65% to 64.9%. To summarize, there was slight decrease in the passing rates of students in the district. 
+  When the Thomas High School 9th graders were factored out, the % Passing Math, % Passing Reading, and % Overall Passing columns for the district summary dataFrame all changed. 
 
 - How is the school summary affected?
 
   ![](Resources/new_school_summary.png)
 
-  The new school summary dataframe is shown above. The school summary has rows according to each school and columns that hold information about each school. This means that the school summary was only affected in the Thomas High School row in the last 5 columns. These columns show the average scores for math and reading, percentage of students passing math and reading, and the percentage of overall students passing. Because of the academic dishonesty, these 5 columns were all expected to have decreased numbers but only 4 of them did. The Average Reading Score column increased by about .05. Because the % Passing Reading decreased from 97.31% to 97.02% we know that less students are passing now that the fake test scores have been removed, but why would the average reading scores increase? My theory is that the fake test scores were marked as above passing, but instead of giving the students a very high grade, a mediocre grade may have been used to make the numbers believable causing the actual reading average to be higher than the fake average.
-
+  The new school summary dataframe is shown above. The school summary has rows according to each school and columns that hold information about each school. This means that the school summary was only affected in the Thomas High School row in the last 5 columns. These columns show the average scores for math and reading, percentage of students passing math and reading, and the percentage of overall students passing. Because of the academic dishonesty, these 5 columns were all expected to have decreased numbers but only 4 of them did. The Average Reading Score column increased by about .05. 
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-  Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. However, the distance between Thomas and the school ranked 3rd went from .35 to .03. So, it came very close to coming in 3rd place.
+  Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. The rank was unaffected.
 
 - How does replacing the ninth-grade scores affect the following:
   - **Math and reading scores by grade:** 
@@ -46,15 +45,12 @@ This analysis will assist a school board in making decisions about the budget of
     Thomas High Schools falls into the charter school type. Like the 2 tables before this one, this new table looks exactly like the old one, meaning the forged scores were not significant enough to alter the numbers when grouped other charter schools.
   
 ## Summary: 
-After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, four changes occured in the updated school district analysis:
+After the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs, some changes occured in the updated school district analysis:
 
-1. 
-2. 
-3. 
-4. 
+  - In the district summary dataframe, the percentage of students passing math went from 75% to 74.8%. The percentage of students passing reading went from 86% to 85.7%. Lastly, the percentage of overall students passing went from 65% to 64.9%. To summarize, there was slight decrease in the passing rates of students in the district. 
 
-Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
-Summary: 
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
+  - In the school summary, the Average Reading Score column increased by about .05. Because the % Passing Reading decreased from 97.31% to 97.02% we know that less students are passing now that the fake test scores have been removed, but why would the average reading scores increase? My theory is that the fake test scores were marked as above passing, but instead of giving the students a very high grade, a mediocre grade may have been used to make the numbers believable causing the actual reading average to be higher than the fake average.
+ 
+  - Thomas High School was still ranked 2nd place after the forged math and reading scores were omitted. However, the distance between Thomas and the school ranked 3rd went from .35 to .03. So, it came very close to coming in 3rd place.
+  
+The data showed much smaller differences than one would expect if there was any significant tampering of the data. As we can see from the previous changes, there was not even a 1% difference between the old numbers and the new ones.  
